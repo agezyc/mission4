@@ -1,0 +1,117 @@
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 50.5%;
+    }
+   
+  
+}
+
+@media screen and (min-width: 321px) and (max-width:768px) {
+    html {
+        font-size:50.5%;
+    }
+ 
+}
+
+@media screen and (min-width: 769px) and (max-width: 1040px) {
+    html {
+        font-size: 62.5%;
+    }
+   
+  
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #eff0f4;
+	background-size:100% 100%;
+}
+.wrap{
+	display:flex;
+	flex-direction: column;
+	
+}
+.header{
+	display:flex;
+	background: #5fc0cd;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items:center;
+	height: 42px;
+	color:white;
+	font-size: 2rem;
+}
+.l1 {
+	margin-left:10px;
+}
+.r1 {
+	margin-right:10px;
+}
+.c1{
+	font-size: 2.5rem;
+}
+.content{
+	display:flex;
+	flex-direction:column;
+	
+}
+form input{
+	width:100%;
+	border:none;
+	height: 50px;
+	margin-top:15px;
+	border-left:1px;
+
+}
+
+form input[type="button"]{
+	background: #5fc0cd;
+	height: 42px;
+	margin-top:32px;
+	color:white;
+	font-size: 2rem;
+}
+.icon-user{
+	z-index: 2;
+	position:absolute;
+	background-image:url(../img/1.gif);
+	background-repeat: no-repeat; 
+	background-position: 15px 60%;
+	width: 48px;
+	height:76px;
+	background-size:15px;
+	
+}
+
+.inputbox{
+	position: relative;
+}
+
+.icon-pasword{
+	z-index: 2;
+	position:absolute;
+	background-image:url(../img/2.png);
+	background-repeat: no-repeat; 
+	background-position: 15px 60%;
+	width: 48px;
+	height:76px;
+	background-size:15px;
+}
+
+.user{
+	padding-left:50px;
+
+}
+
+.foot{
+	display:flex;
+	flex-direction: row-reverse;
+	padding:20px;
+	font-size: 1.5rem;
+	color: #5fc0cd;
+}
+
+.foot a{
+	color: #5fc0cd;
+}
